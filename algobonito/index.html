@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lydia 🤎</title>
+
+<!-- Estilos -->
+<link rel="stylesheet" href="style.css">
+<!-- GLightbox CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+</head>
+
+<body>
+
+<div id="intro">
+  <h1 class="introText">LYDIA 🤎</h1>
+  <p>Una sorpresa para ti</p>
+</div>
+
+<canvas id="stars"></canvas>
+
+<audio id="music" loop>
+  <source src="cancion.mp3" type="audio/mp3">
+</audio>
+
+<audio id="kiss">
+  <source src="beso.mp3" type="audio/mp3">
+</audio>
+
+<header>
+  <h1 onclick="playKiss()">Nuestra Historia 🤎</h1>
+  <nav>
+    <a href="index.html" onclick="playKiss()">Fotos</a>
+    <a href="carta.html" onclick="playKiss()">Carta</a>
+    <a href="playlist.html" onclick="playKiss()">Playlist</a>
+  </nav>
+</header>
+
+<section class="contador">
+  <h2>Tiempo juntos</h2>
+  <p id="timer"></p>
+</section>
+
+<div class="flowers">
+  🌷 🌻 🌷 🌻 🌷
+</div>
+
+<section class="gallery">
+  <a href="fotos/foto1.jpg" class="glightbox"><img src="fotos/foto1.jpg" alt="Nuestro primer recuerdo 🤎"></a>
+  <a href="fotos/foto2.jpg" class="glightbox"><img src="fotos/foto2.jpg" alt="Tu carita preciosa"></a>
+  <a href="fotos/foto3.jpeg" class="glightbox"><img src="fotos/foto3.jpeg" alt="Momentos contigo"></a>
+  <a href="fotos/foto4.PNG" class="glightbox"><img src="fotos/foto4.PNG" alt="Foto random mia"></a>
+  <a href="fotos/foto5.jpeg" class="glightbox"><img src="fotos/foto5.jpeg" alt="Foto random"></a>
+  <a href="fotos/foto6.jpg" class="glightbox"><img src="fotos/foto6.jpg" alt="Un día perfecto"></a>
+  <a href="fotos/foto7.png" class="glightbox"><img src="fotos/foto7.png" alt="Videollamada"></a>
+  <a href="fotos/foto8.jpg" class="glightbox"><img src="fotos/foto8.jpg" alt="Mi cumple"></a>
+  <a href="fotos/foto9.jpeg" class="glightbox"><img src="fotos/foto9.jpeg" alt="Nosotros en el tren"></a>
+  <a href="fotos/foto10.jpeg" class="glightbox"><img src="fotos/foto10.jpeg" alt="Mas tren"></a>
+  <a href="fotos/foto11.jpg" class="glightbox"><img src="fotos/foto11.jpg" alt="Un recuerdo bonito"></a>
+  <a href="fotos/foto12.jpg" class="glightbox"><img src="fotos/foto12.jpg" alt="Mi niña de pequeña"></a>
+  <a href="fotos/foto13.jpg" class="glightbox"><img src="fotos/foto13.jpg" alt="Te elegiría mil veces porque eres perfecta"></a>
+  <a href="fotos/foto14.png" class="glightbox"><img src="fotos/foto14.png" alt="Cuando te pedí salir"></a>
+  <a href="fotos/foto15.jpeg" class="glightbox"><img src="fotos/foto15.jpeg" alt="Te amo Lydia 🤎"></a>
+</section>
+
+<!-- Scripts -->
+<script src="script.js"></script>
+<!-- GLightbox JS -->
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+  const lightbox = GLightbox({ selector: '.glightbox' });
+</script>
+</body>
+</html>
