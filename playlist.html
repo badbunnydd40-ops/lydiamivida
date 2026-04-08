@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playlist</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1 onclick="playKiss()">Nuestra Playlist 🤎</h1>
+  <nav>
+    <a href="index.html" onclick="playKiss()">Fotos</a>
+    <a href="carta.html" onclick="playKiss()">Carta y momentos juntos</a>
+    <a href="playlist.html" onclick="playKiss()">Playlist</a>
+  </nav>
+</header>
+
+<section class="spotify">
+  <iframe
+    src="https://open.spotify.com/embed/playlist/559lVpiKtgkGLiVv4iTlW6"
+    width="90%"
+    height="500"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</section>
+
+<canvas id="stars"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>

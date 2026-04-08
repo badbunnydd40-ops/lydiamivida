@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Lydia 🤎 El amor de mi vida</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"/>
+
+</head>
+
+<body>
+
+<div id="intro">
+<h1 class="introText">LYDIA 🤎</h1>
+<p>Una sorpresa para ti</p>
+</div>
+
+<canvas id="stars"></canvas>
+
+<audio id="music" loop>
+<source src="cancion.mp3" type="audio/mp3">
+</audio>
+
+<audio id="kiss">
+<source src="beso.mp3" type="audio/mp3">
+</audio>
+
+<header>
+
+<h1 onclick="playKiss()">Nuestra Historia 🤎</h1>
+
+<nav>
+<a href="index.html">Fotos</a>
+<a href="carta.html">Carta y momentos juntos</a>
+<a href="playlist.html">Playlist</a>
+</nav>
+
+</header>
+
+<section class="contador">
+<h2>Tiempo juntos</h2>
+<p id="timer"></p>
+</section>
+
+<div class="flowers">
+🌷 🌻 🌷 🌻 🌷
+</div>
+
+<section class="gallery">
+
+<!-- TODAS LAS FOTOS DENTRO -->
+
+<figure class="photo">
+<a href="/fotos/foto1.jpg" class="glightbox">
+<img src="/fotos/foto1.jpg">
+</a>
+<figcaption>Nuestro primer recuerdo 🤎</figcaption>
+</figure>
+
+<figure class="photo">
+<a href="/fotos/foto2.JPG" class="glightbox">
+<img src="/fotos/foto2.jpg">
+</a>
+<figcaption>Tu carita preciosa</figcaption>
+</figure>
+
+<figure class="photo">
+<a href="/fotos/foto3.jpeg" class="glightbox">
+<img src="/fotos/foto3.jpeg">
+</a>
+<figcaption>Momentos contigo</figcaption>
+</figure>
+
+<figure class="photo">
+<a href="/fotos/foto4.PNG" class="glightbox">
+<img src="/fotos/foto4.PNG">
+</a>
+<figcaption>Foto random mia</figcaption>
+</figure>
+
+<figure class="photo">
+<a href="/fotos/foto5.jpeg" class="glightbox">
+<img src="/fotos/foto5.jpeg">
+</a>
+<figcaption>Foto random</figcaption>
+</figure>
+
+<figure class="photo">
+<a href="/fotos/foto6.jpg" class="glightbox">
+<img src="/fotos/foto6.jpg">
+</a>
+<figcaption>Un día perfecto</figcaption>
+</figure>
+
+<figure class="photo">
+<a href="/fotos/foto7.png" class="glightbox">
+<img src="/fotos/foto7.png">
+</a>
+<figcaption>Videollamada</figcaption>
+</figure>
+
+<figure class="photo">
+<a href="/fotos/foto8.jpg" class="glightbox">
+<img src="/fotos/foto8.jpg">
+</a>
+<figcaption>Mi cumple</figcaption>
+</figure>
+
+<figure class="photo">
+<a href="/fotos/foto9.jpeg" class="glightbox">
+<img src="/fotos/foto9.jpeg">
+</a>
+<figcaption>Nosotros en el tren</figcaption>
+</figure>
+
+<figure class="photo">
+<a href="/fotos/foto10.jpeg" class="glightbox">
+<img src="/fotos/foto10.jpeg">
+</a>
+<figcaption>Más tren</figcaption>
+</figure>
+
+<figure class="photo">
+<a href="/fotos/foto11.JPG" class="glightbox">
+<img src="/fotos/foto11.JPG">
+</a>
+<figcaption>Foto de las instantáneas jejej</figcaption>
+</figure>
+
+<figure class="photo">
+<a href="/fotos/foto12.JPG" class="glightbox">
+<img src="/fotos/foto12.JPG">
+</a>
+<figcaption>Mi niña de pequeña que guapa es 🤎</figcaption>
+</figure>
+
+<figure class="photo">
+<a href="/fotos/foto13.JPG" class="glightbox">
+<img src="/fotos/foto13.JPG">
+</a>
+<figcaption>Mi niña haciéndose una foto</figcaption>
+</figure>
+
+<figure class="photo">
+<a href="/fotos/foto14.PNG" class="glightbox">
+<img src="/fotos/foto14.PNG">
+</a>
+<figcaption>El día que te pedí salir</figcaption>
+</figure>
+
+<figure class="photo">
+<a href="/fotos/foto15.jpeg" class="glightbox">
+<img src="/fotos/foto15.jpeg">
+</a>
+<figcaption>Foto tren dándote un beso</figcaption>
+</figure>
+
+<!-- ARREGLADAS -->
+
+<figure class="photo">
+<a href="/fotos/foto16.jpeg" class="glightbox">
+<img src="/fotos/foto16.jpeg">
+</a>
+<figcaption>Foto to guapa en la playa</figcaption>
+</figure>
+
+<figure class="photo">
+<a href="/fotos/foto17.jpeg" class="glightbox">
+<img src="/fotos/foto17.jpeg">
+</a>
+<figcaption>Mi niña sesi en la playa</figcaption>
+</figure>
+
+<figure class="photo">
+<a href="/fotos/foto18.jpeg" class="glightbox">
+<img src="/fotos/foto18.jpeg">
+</a>
+<figcaption>Foto antes del gran momento jejeje </figcaption>
+</figure>
+
+<figure class="photo">
+<a href="/fotos/foto19.jpeg" class="glightbox">
+<img src="/fotos/foto19.jpeg">
+</a>
+<figcaption>Cuando fuimos todos a la playa aguita que guapa sales mae mia me pongo malito</figcaption>
+</figure>
+
+<figure class="photo">
+<a href="/fotos/foto20.jpeg" class="glightbox">
+<img src="/fotos/foto20.jpeg">
+</a>
+<figcaption>Cuando me pusiste una coleta jajajajaj</figcaption>
+</figure>
+
+<figure class="photo">
+<a href="/fotos/foto21.jpeg" class="glightbox">
+<img src="/fotos/foto21.jpeg">
+</a>
+<figcaption>foto random en mi casa</figcaption>
+</figure>
+
+<figure class="photo">
+<a href="/fotos/foto22.jpeg" class="glightbox">
+<img src="/fotos/foto22.jpeg">
+</a>
+<figcaption>fotos randoms pero muy muy bonicas </figcaption>
+</figure>
+
+</section>
+
+<section class="loveReasons">
+<h2>Razones por las que te amo 🤎</h2>
+
+<div class="reasonsGrid">
+<div class="reason">Tu sonrisa</div>
+<div class="reason">Tus abrazos</div>
+<div class="reason">Tu voz</div>
+<div class="reason">Tu carita preciosa</div>
+<div class="reason">Cómo me miras</div>
+<div class="reason">Cómo me haces sentir</div>
+<div class="reason">Tu forma de querer</div>
+<div class="reason">Todo de ti</div>
+</div>
+
+</section>
+
+<div id="secretMessage">
+🤎 Si has llegado hasta aquí quiero que sepas que eres lo mejor que me ha pasado 🤎
+</div>
+
+<script src="script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+<script>
+const lightbox = GLightbox({selector:'.glightbox'})
+</script>
+
+</body>
+</html>
